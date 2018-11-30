@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="BreakableGlass.cpp" />
+    <ClCompile Include="Drawable.cpp" />
+    <ClCompile Include="EndScreen.cpp" />
+    <ClCompile Include="GlassShard.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="JSONReader.cpp" />
+    <ClCompile Include="JSON_Reader\JSON.cpp" />
+    <ClCompile Include="JSON_Reader\JSONValue.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="OptionMenu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="PseudoPlayer.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="MovingPlatform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="BreakableGlass.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="EndScreen.h" />
+    <ClInclude Include="EventListener.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GlassShard.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="JSONReader.h" />
+    <ClInclude Include="JSON_Reader\JSON.h" />
+    <ClInclude Include="JSON_Reader\JSONValue.h" />
+    <ClInclude Include="LevelConstructor.h" />
+    <ClInclude Include="LevelData.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="LevelMessenger.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="ObjectID.h" />
+    <ClInclude Include="OptionMenu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Portal.h" />
+    <ClInclude Include="PseudoPlayer.h" />
+    <ClInclude Include="Row.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SplashScreen.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="MovingPlatform.h" />
+  </ItemGroup>
+</Project>
